@@ -1,0 +1,22 @@
+﻿<Window x:Class="cw2.Window2"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:cw2"
+        mc:Ignorable="d"
+        Title="Window2" Height="450" Width="800">
+    <Grid>
+        <ComboBox x:Name="combo" HorizontalAlignment="Left" Margin="94,217,0,0" VerticalAlignment="Top" Width="186" Height="45" SelectionChanged="ComboBox_SelectionChanged"/>
+        <Button Content="Powrót" HorizontalAlignment="Left" Margin="577,157,0,0" VerticalAlignment="Top" Height="60" Width="106" Click="Button_Click"/>
+        <Label x:Name="price" Content="0" HorizontalAlignment="Left" Margin="587,98,0,0" VerticalAlignment="Top" Height="30" Width="86"/>
+        <RadioButton x:Name="Diesel" Content="Diesel" HorizontalAlignment="Left" Margin="94,105,0,0" VerticalAlignment="Top" Height="15" Checked="Diesel_Checked"/>
+        <RadioButton x:Name="Hybryda" Content="Hybryda" HorizontalAlignment="Left" Margin="94,125,0,0" VerticalAlignment="Top" Checked="Hybryda_Checked"/>
+        <RadioButton x:Name="Gaz" Content="Gaz" HorizontalAlignment="Left" Margin="94,145,0,0" VerticalAlignment="Top" Checked="Gaz_Checked"/>
+        <Label Content="Paliwo:" HorizontalAlignment="Left" Margin="102,47,0,0" VerticalAlignment="Top"/>
+        <RadioButton x:Name="Benzyna" Content="Benzyna" HorizontalAlignment="Left" Margin="94,84,0,0" VerticalAlignment="Top" Checked="Benzyna_Checked"/>
+        <Label Content="Moc hp:" HorizontalAlignment="Left" Margin="100,186,0,0" VerticalAlignment="Top" Height="26" Width="87"/>
+        <Label Content="Cena:" HorizontalAlignment="Left" Margin="577,66,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>
